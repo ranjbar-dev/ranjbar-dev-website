@@ -1,3 +1,5 @@
+import Intro from './components/Intro'
+import CursorGlow from './components/CursorGlow'
 import ScrollProgress from './components/ScrollProgress'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,6 +11,8 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <>
+      <Intro />
+      <CursorGlow />
       <ScrollProgress />
       <a
         href="#about"
